@@ -19,6 +19,10 @@ h3 {
 p {
     text-indent: 28px;
     text-align: left;
-    color: #00f;
+    /* color: #00f; */
     font-variant: small-caps;
+}
+
+a{
+    text-decoration: none;
 }
