@@ -1,28 +1,45 @@
+body {
+    background-color: #ffffff;
+}
+
 h1{
-    color: red;
+    color: #c156ff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 54px;
+    font-size: 64px;
+    text-align: center;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
     font-style: italic;
 }
 h3 {
-    font-size: 20px;
+    font-size: 30px;
     text-transform: uppercase;
-    text-align: center;
-    text-decoration: overline;
+    text-decoration: under;
+    text-indent: 28px;
 }
 
 p {
+    font-size: 20px;
     text-indent: 28px;
     text-align: left;
-    /* color: #00f; */
-    font-variant: small-caps;
+    color: #dbd709;
+    font-variant: inherit;
 }
 
 a{
     text-decoration: none;
+    font-variant: normal;
+}
+
+.destaque {
+    color: #00696d;
+    font-weight: bold;
+}
+
+#destaque {
+    color: rgb(255, 123, 0);
 }
