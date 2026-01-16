@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: sans-serif; /* define a fonte */
+        }
+
+        p {
+            background-color: #ccc; /* define e pinta a caixa de texto*/
+            margin-top: 0;
+        }
+
+        h1 {
+            background-color: #a07c7c;
+            padding: 16px; /* define o espaçamento interno entre a caixa e a fonte */
+        }
+
+        h2 {
+            background-color: #37a951;
+            margin-top: 56px;
+            border-bottom: 5px solid green;
+        }
+         /*p{
+            padding-top: 50px;
+            padding-right: 40px;
+            padding-bottom: 30px;
+            padding-left: 20px ;
+         } /* comando utilizado para definit o padding
+        p { padding: 50px 40px 30px 20px;}*/ /* abreviação do comando padding-top; right; bottom; left */
+
+        /* se substituir o padding por margin, também é a mesma lógica */
+
+        .destaque{
+            background-color: orange;
+        }
+
+        .size{
+            width: 50%;
+            height: 100px;
+        }
+
+        .padding{
+            padding: 26px;
+        }
+
+        .margin{
+            margin: 50px 0 20px 100px;
+        }
+
+        .borda{
+            border-top-style: solid;
+            border-top-width: 10px;
+            border-top-color: #287cac;
+            /* border-top: 10px solid red; */
+            border-right: 10px dotted red;
+            border-bottom: 10px dashed blue;
+            border-left: 30px groove green;
+            /* border: 5px solid red; */
+            padding: 10px;
+        }
+
+        .borda2{
+            border: 5px dashed blue; /* parte interna do objeto */
+        }
+
+        .outline{
+            outline: 5px dashed red; /* parte de fora do objeto */
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+
+    <h2>Width e Height</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos eos placeat aut quam incidunt praesentium adipisci sint consectetur et 
+        possimus quidem delectus repellendus, optio tempore laborum. Sapiente assumenda, id qui possimus, voluptatem iure ea expedita accusamus doloribus 
+        cumque natus quo necessitatibus facilis quos accusantium nesciunt? Hic voluptatum voluptatibus laboriosam minima dicta reprehenderit nulla fuga 
+        est iure commodi quas pariatur obcaecati laborum quia facere, impedit vel. Consequuntur sed perspiciatis officiis ipsa explicabo alias ipsam 
+        beatae possimus nulla! Qui ducimus cupiditate commodi doloremque! Dolor magni temporibus deleniti? Magni reprehenderit sequi placeat assumenda 
+        quas animi, facilis optio quod. Quibusdam at incidunt eum.</p>
+    <p class="destaque size">Lorem ipsum dolor sit amet.</p>
+    
+    <h2>Padding</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos eos placeat aut quam incidunt praesentium adipisci sint consectetur et 
+        possimus quidem delectus repellendus, optio tempore laborum. Sapiente assumenda, id qui possimus, voluptatem iure ea expedita accusamus doloribus 
+        cumque natus quo necessitatibus facilis quos accusantium nesciunt? Hic voluptatum voluptatibus laboriosam minima dicta reprehenderit nulla fuga 
+        est iure commodi quas pariatur obcaecati laborum quia facere, impedit vel. Consequuntur sed perspiciatis officiis ipsa explicabo alias ipsam 
+        beatae possimus nulla! Qui ducimus cupiditate commodi doloremque! Dolor magni temporibus deleniti? Magni reprehenderit sequi placeat assumenda 
+        quas animi, facilis optio quod. Quibusdam at incidunt eum.</p>
+    <p class="destaque padding">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Margin</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos eos placeat aut quam incidunt praesentium adipisci sint consectetur et 
+        possimus quidem delectus repellendus, optio tempore laborum. Sapiente assumenda, id qui possimus, voluptatem iure ea expedita accusamus doloribus 
+        cumque natus quo necessitatibus facilis quos accusantium nesciunt? Hic voluptatum voluptatibus laboriosam minima dicta reprehenderit nulla fuga 
+        est iure commodi quas pariatur obcaecati laborum quia facere, impedit vel. Consequuntur sed perspiciatis officiis ipsa explicabo alias ipsam 
+        beatae possimus nulla! Qui ducimus cupiditate commodi doloremque! Dolor magni temporibus deleniti? Magni reprehenderit sequi placeat assumenda 
+        quas animi, facilis optio quod. Quibusdam at incidunt eum.</p>
+    <p class="destaque margin">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>Border</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos eos placeat aut quam incidunt praesentium adipisci sint consectetur et 
+        possimus quidem delectus repellendus, optio tempore laborum. Sapiente assumenda, id qui possimus, voluptatem iure ea expedita accusamus doloribus 
+        cumque natus quo necessitatibus facilis quos accusantium nesciunt? Hic voluptatum voluptatibus laboriosam minima dicta reprehenderit nulla fuga 
+        est iure commodi quas pariatur obcaecati laborum quia facere, impedit vel. Consequuntur sed perspiciatis officiis ipsa explicabo alias ipsam 
+        beatae possimus nulla! Qui ducimus cupiditate commodi doloremque! Dolor magni temporibus deleniti? Magni reprehenderit sequi placeat assumenda 
+        quas animi, facilis optio quod. Quibusdam at incidunt eum.</p>
+    <p class="destaque borda">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    
+    <h2>Outline</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil dignissimos eos placeat aut quam incidunt praesentium adipisci sint consectetur et 
+        possimus quidem delectus repellendus, optio tempore laborum. Sapiente assumenda, id qui possimus, voluptatem iure ea expedita accusamus doloribus 
+        cumque natus quo necessitatibus facilis quos accusantium nesciunt? Hic voluptatum voluptatibus laboriosam minima dicta reprehenderit nulla fuga 
+        est iure commodi quas pariatur obcaecati laborum quia facere, impedit vel. Consequuntur sed perspiciatis officiis ipsa explicabo alias ipsam 
+        beatae possimus nulla! Qui ducimus cupiditate commodi doloremque! Dolor magni temporibus deleniti? Magni reprehenderit sequi placeat assumenda 
+        quas animi, facilis optio quod. Quibusdam at incidunt eum.</p>
+    <p class="destaque outline">Lorem ipsum dolor sit amet.</p>
+    <p class="destaque borda2"> Lorem ipsum dolor sit amet.</p>
+    <p class="destaque borda2 outline"> Lorem ipsum dolor sit amet.</p>
+
+
+</body>
+</html>
