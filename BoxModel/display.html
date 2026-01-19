@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        p {
+            width: 50%;
+            background-color: #ccc;
+        }
+
+        h1 {
+            border: 2px solid red;
+            width: 25%;
+        }
+
+        a {
+            background-color: yellow;
+            padding: 10px; /* utilizado para aumentar a área clicável, neste caso */
+            display: inline-block;
+        }
+
+        strong {
+            /* padding: 25px; */
+            background-color: #cd7777;
+            display: inline-block;
+            height: 60px;
+            width: 50%;
+        }
+
+        b {
+            /* display: none; */ /* apaga, nesse caso, o b do fluxo */
+            visibility: hidden;
+            /* a diferença entre visibility: hidden; e display: none; é que o primeiro é possível ver o espaço que determinado bloco ocupa (nesse caso, bloco de linha) e o segundo ele exclui totalmente
+            incluindo o espaço que ele ocupa. */
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>box sizing</h1>
+    <p>Lorem ipsum dolor <a href="BoxModel.html">Box Model arquivo HTML</a> sit amet consectetur adipisicing elit. <b>texto em negrito com &lt;b&gt;</b> Consectetur rerum ut asperiores totam voluptates
+        blanditiis dolorem, nemo mollitia ipsum
+        ullam. Veniam, architecto? Autem <strong>texto em negrito com &lt;strong&gt;</strong> aliquam rem consequuntur excepturi ratione dolores omnis, veniam error facere
+        in facilis ex quaerat minus
+        voluptatum saepe officiis <em>texto em italico com &lt;em&gt;</em> et repudiandae porro eaque libero? Alias similique nemo odio minus asperiores ad in?
+        Numquam ipsam est suscipit
+        commodi voluptates natus hic, <i>texto em itálico com <b>&lt;i&gt;</b></i> vero placeat porro praesentium facere quia eius consectetur fugit reiciendis earum
+        mollitia illum aut repellendus
+        iusto? Dolores earum molestiae dolore laudantium modi nemo eum quidem maiores exercitationem, alias quasi?
+        Eaque, enim corrupti voluptatum hic
+        quos at doloribus rem!</p>
+
+        <!-- para adicionar os sinais de maior e menor <> basta colocar no código: &lt; x &gt; -->
+        <!-- padding, width, height e border não funcionam em elementos de linha (Como parágrafos, por exemplo) -->
+        <!-- para conseguir utilizar os comandos acima em um elemento de linha, é necessário que transforme ele em um bloco, utilizando o comando: display: block; -->
+        <!-- pode também usar o comando: "display: inline-block;" -->
+
+</body>
+
+</html>
