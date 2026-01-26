@@ -13,19 +13,24 @@
 
         a {
             display: inline-block;
+            padding: 3px;
         }
 
-        a:link {
+        a:link { /* por padrão, a cor do link é azul, mas é possível atualizar a cor e deixá-lo de outra cor*/
             color: red;
         }
 
-        a:visited {
+        a:visited { /* quando clicar no link, o link geralmente muda de cor, por padrão é a cor roxa, mas é possível definir a cor com o comando abaixo*/
             color: green;
         }
 
-        a:hover {
+        a:hover { /* quando o cursor do mouse estiver em cima do link ele irá ficar com essas configurações */
             background-color: #ccc;
             padding: 10px;
+        }
+
+        a:active { /* pintar o que foi clicado da cor que desejar com a formatação que desejar */
+            background-color: yellow;
         }
 
         /* a {
