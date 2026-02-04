@@ -1,0 +1,49 @@
+/* margin-auto = centraliza elementos de bloco */
+/* text-aligne; center = centraliza elementos de linha / conteúdo */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    margin: auto;
+    color: #444;
+    background-color: #ccc;
+    margin-bottom: 56px;
+}
+
+
+h1 {
+    background-color: aquamarine;
+    color: blueviolet;
+    text-align: center;
+    font-size: 46px;
+}
+
+h2 {
+    background-color: #a9ffff;
+    color: blueviolet;
+    font-size: 36px;
+    border-bottom: 3px solid;
+    padding: 10px;
+    margin-top: 48px;
+    margin-bottom: 12px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
