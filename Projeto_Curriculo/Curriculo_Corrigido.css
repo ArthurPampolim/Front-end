@@ -16,6 +16,7 @@ h1 {
     color: blueviolet;
     text-align: center;
     font-size: 46px;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -37,7 +38,11 @@ li {
 }
 
 .center {
+    background-color: #a9ffff;
+    color: blueviolet;
+    margin-top: 0;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 a {
@@ -46,4 +51,27 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.menu {
+    
+    text-align: right;
+}
+
+.menu li { /* formata as li que estão dentro da classe menu */
+    list-style-type: none;
+    display: inline-block; /* deixa as listas no mesma linha */
+    background-color: yellow;
+    padding: 0;
+}
+
+.menu a {
+    background-color: #c1bebe;
+    padding: 16px; /* aumenta a área sensível do mouse */
+}
+
+.menu a:hover {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
 }
