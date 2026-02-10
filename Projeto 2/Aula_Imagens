@@ -73,3 +73,28 @@ TIPOS DE IMAGEM:
     para verificações de compatibilidade com navegadores: https://caniuse.com/
 
     ------------------------------------- \\ ------------------------------------- \\ -------------------------------------
+
+    BACKGROUND
+    background: <>; abrange todos os backgrounds disponiveis, tanto o background-color, background-image, etc... Basta colocar o comando dentro dele, exemplo:
+    background: url(imagens/tile-pattern.png) red no-reoeat
+    
+    ao inves de colocar:
+    background-color: red;
+    background-image: url(..);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+    
+    seria possível colocar apenas:
+    background: url(..) red no-repeat fixed cover right bottom
+
+    o problema de trabalhar com atalho é que caso você use o atalho duas vezes no mesmo arquivo, o atalho que veio por ultimo, irá prevalecer. Por ex:
+
+    caso você coloque:
+
+    background: url(imagens/tile-pattern.png) #4c4c4c no-repeat fixed;
+
+    e depois venha com
+
+    background: red
+    a página toda ficará vermelha.
