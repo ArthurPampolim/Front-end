@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Trabalhando com imagens</title>
+
+    <style>
+
+        body {
+            font-size: 22px;
+            font-family: sans-serif;
+            width: 700px;
+            margin: auto;
+
+            background-image: url(imagens/bg.jpg); /*adiciona a imagem*/
+            background-repeat: no-repeat; /* não deixa a imagem repetir */
+            background-attachment: fixed;
+            background-size: cover; /* define o tamanho da imagem */
+            background-position: right bottom;
+        }
+
+        p {
+            line-height: 1.5; /* aumenta a distancia entre as linhas, sendo ela de acordo com o tamanho da fonte. No caso de 1.5, seria 1.5x o tamanho da fonte assim 
+            por diante. */
+            text-align: justify;
+        }
+
+        .img-logo {
+            width: 400px;
+        }
+
+        .img-html {
+            float: left;
+        }
+
+        .img-css {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Trabalhando com imagens</h1>
+
+    <h2>Imagens vetoriais vs bitmap</h2>
+
+    <img src="imagens/logo_ser-frontend-ico.png" class="img-logo" alt="logotipo serfrontend">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico.svg" class="img-logo" alt="logotipo serfrontend">
+
+    <h2>Imagens Transparentes</h2>
+
+    <img src="imagens/logo_ser-frontend-ico-transparente.gif" alt="">
+    <br>
+    <img src="imagens/logo_ser-frontend-ico-transparente.png" alt="">
+
+    <h2>gif animado</h2>
+    <img src="imagens/walk.gif" alt="animação mulher andando">
+
+    <h2>Float</h2>
+
+    <img src="imagens/html5.png" alt="logotipo html5" class="img-html">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, neque fuga. Soluta molestias doloremque nesciunt dolore tempore, tempora amet porro quos odit 
+        cupiditate sint molestiae repudiandae placeat aliquam esse accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut optio sapiente dolores a consectetur culpa dolor est deleniti iure, animi sequi cumque architecto 
+        distinctio, voluptatem perferendis quibusdam, beatae laboriosam ipsa. Tenetur quas perferendis vero quisquam impedit quo fugiat veritatis quos laborum dicta 
+        consectetur aliquid accusamus distinctio excepturi, enim molestias sunt. Iure, laborum voluptates? At, quaerat sapiente amet sequi alias ea harum esse quia quos 
+        pariatur, beatae praesentium possimus aut reprehenderit voluptas. Eum maiores temporibus totam neque iure praesentium deserunt omnis.</p>
+    <img src="imagens/css3.png" alt="logotipo CSS3" class="img-css">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, neque fuga. Soluta molestias doloremque nesciunt dolore tempore, tempora amet porro quos odit 
+        cupiditate sint molestiae repudiandae placeat aliquam esse accusamus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut optio sapiente dolores a consectetur culpa dolor est deleniti iure, animi sequi cumque architecto 
+        distinctio, voluptatem perferendis quibusdam, beatae laboriosam ipsa. Tenetur quas perferendis vero quisquam impedit quo fugiat veritatis quos laborum dicta 
+        consectetur aliquid accusamus distinctio excepturi, enim molestias sunt. Iure, laborum voluptates? At, quaerat sapiente amet sequi alias ea harum esse quia quos 
+        pariatur, beatae praesentium possimus aut reprehenderit voluptas. Eum maiores temporibus totam neque iure praesentium deserunt omnis.</p>
+
+</body>
+</html>

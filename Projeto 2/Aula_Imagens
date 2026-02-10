@@ -1,0 +1,75 @@
+COMANDOS PARA ALGO
+
+inclusão de imagem
+HTML
+<img src="..." alt= "...">
+"src" serve para buscar a imagem no diretório
+"alt" tem dois objetivos. 
+    1. O que será visualizado pelo usuário caso tenha algum erro com a imagem do "src"
+    2. Necessário colocar texto descritivo do que está na imagem, pois também é utilizado para
+       que pessoas com doenças visuais possam escutar a descrição da imagem.
+    3. SEO = source engine optimization
+
+CSS
+background-image: url(...);
+
+Qual utilizar?
+
+HTML = utilizar imagem que está relacionada ao conteúdo.
+CSS  = utilizar quando a imagem for meramente decorativa, visto que css é para decoração da página.
+
+Caso você não tenha como descrever a imagem no HTML, deixa sempre o "alt" vazio, m  alt.
+
+------------------------------------- \\ ------------------------------------- \\ ------------------------------------- 
+
+Imagem bitmap: imagem formada por pixeis
+Imagem vetoriais: Imagens que utilizam de cálculos matemáticos para a construção da imagem
+
+Imagem vetoriais tendem a serem mais leves que imagens bitmap, pois é mais fácil representar uma imagem com cálculos matemáticos
+do que imagens com vários pixels um ao lado do outro. Mas isso só é válido para imagens com poucos elementos/poucas cores.
+
+Imagem bitmap: imagem com muitas cores, muitos elementos, muitos detalhes, como uma fotografia
+Imagem vetoriais: Imagens que poucas cores, poucos elementos, tendem a ser mais leves.
+
+Imagem bitmap: Podem perder qualidade dependendo da resolução do tela, do zoom aplicado na página, etc...
+Imagem vetoriais: Se molda de acordo com a resolução da tela, do zoom aplicado, etc...
+
+------------------------------------- \\ ------------------------------------- \\ -------------------------------------
+
+TIPOS DE IMAGEM:
+
+.jpg/.jpeg                     |                         .svg
+.png                           |                         .webp
+.gif                           |                         .avif
+
+.jpg e .jpeg 
+    1- Náo possuem diferença, no entanto, caso o arquivo esteja com a extenção .jpg ou .jpeg, é necessário digitar a extensão corretamente no arquivo, para que não haja erro na hora de buscá-la.
+    2- Ela é uma imagem bitmap e comprimi bastante a imagem, perdendo a qualidade da imagem, mas tendo uma imagem com uma qualidade ok, porém com um tamanho menor.
+
+.png 
+    1- Tende a ter um tamanho menor em comparação com o .jpg e .jpeg. 
+    2- Também serve para fotografias. 
+    3- A vantagem do png é que é possível haver transparências, diferente da .jpg e .jpeg, pois consegue ter pixeis com um certo nível de transparência.
+
+.gif
+    1- Também é bastante leve.
+    2- Melhor utilizado quando se tem poucas cores.
+    3- Há uma transparência 100%, mas pode ocorrer erros.
+
+.svg
+    1- Vetorial.
+    2- Bastante utilizados para logotipo.
+    3- Utilizados para textos.
+    4- Utilizado com imagens monocromáticas.
+
+.webp e avif
+    1- Formatos mais novos.
+    2- Melhores que o jpg/jpeg e png, pois conseguem comprimir bastante a imagem.
+    3- São imagens de bitmap.
+    4- Diminuem bastante o tamanho do arquivo, no entanto, não perde a qualidade da imagem.
+    
+    Obs: webp é um formato desenvolvido pelo google.
+
+    para verificações de compatibilidade com navegadores: https://caniuse.com/
+
+    ------------------------------------- \\ ------------------------------------- \\ -------------------------------------
